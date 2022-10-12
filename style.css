@@ -1,0 +1,430 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Rubik:wght@500&display=swap');
+
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Abel', sans-serif;
+}
+
+.header {
+	width: 100%;
+	height: 70px;
+	position: absolute;
+}
+
+.container {
+	width: 100%;
+	height: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.header__body {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.logo {
+	width: 50px;
+	height: 5 0px;
+}
+
+.header__logo {
+	width: 70px;
+	height: 60px;
+}
+
+.header__links {
+	width: 500px;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.link {
+	color: white;
+	font-size: 15px;
+	text-decoration: none;
+}
+
+.main {
+	width: 100%;
+	height: 770px;
+	background: url(./img/main.svg);
+}
+
+.main__body {
+
+	width: 100%;
+	height: 100%;
+}
+
+.main__text {
+	width: 511px;
+	height: 300px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+	font-family: 'Rubik', sans-serif;
+	font-size: 80px;
+	color: white;
+	padding: 400px 0px 0px 0px;
+}
+
+.main__under__text {
+	font-family: 'Abel';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 30px;
+	line-height: 22px;
+	/* identical to box height, or 73% */
+
+
+	color: #868686;
+}
+
+.card__container {
+	width: 100%;
+	height: 168px;
+	margin: 300px 0px 0px 0px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.card {
+	width: 250px;
+	height: 168px;
+	border-radius: 10px;
+	background-color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.glow1 {
+	box-shadow: 0px 15px 60px #4091FB;
+}
+
+.glow2 {
+	box-shadow: 0px 15px 60px #7FE7C6;
+}
+
+.glow3 {
+	box-shadow: 0px 15px 60px #DF8CC4;
+}
+
+.glow4 {
+	box-shadow: 0px 15px 60px #F4A382;
+}
+
+.about_us {
+	width: 100%;
+	height: 1000px;
+}
+
+
+.block__about {
+	width: 100%;
+	max-width: 1000px;
+	height: 530px;
+	margin: 300px auto 0px auto;
+	display: flex;
+}
+
+.about__image {
+	width: 50%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.about__text {
+	width: 50%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	margin: 0px 0px 0px 50px;
+}
+
+.font__bold {
+	font-family: 'Rubik';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 60px;
+	line-height: 71px;
+	position: relative;
+}
+
+.font__bold::before {
+	content: '';
+	position: absolute;
+	border-color: rgba(7, 108, 240, 1);
+	border-style: solid;
+	height: 38px;
+	top: 1.25em;
+	left: -0.5em;
+	margin-top: -1em;
+	width: 2px;
+}
+
+.font__bold::after {
+	position: absolute;
+	content: "TECHNOLOGY";
+	color: #076CF0;
+	font-size: 12px;
+	font-family: 'Abel';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 25px;
+	letter-spacing: 2px;
+	top: 2.7em;
+	left: -0.3em;
+}
+
+.tech {
+	font-family: Abel;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 25px;
+	letter-spacing: 2px;
+	color: rgba(7, 108, 240, 1);
+}
+
+.about__near__pic__text {
+	font-family: Abel;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 26px;
+	/* or 162% */
+
+
+	color: #868686;
+}
+
+.another__near__pic__text {
+	font-family: Abel;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 26px;
+	/* or 162% */
+
+
+	color: #868686;
+}
+
+.learn__more__btn {
+	width: 150px;
+	height: 39px;
+	background: #076CF0;
+	border-radius: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+}
+
+.analytic__block {
+	width: 100%;
+	height: 302px;
+	position: relative;
+	display: flex;
+	margin: 150px 0px 0px 0px;
+}
+
+.analytuc__text {
+	width: 50%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+
+}
+
+.analytic__title {
+	width: 454px;
+	margin: 0px 0px 0px 30px;
+	position: relative;
+}
+
+.analytic__title::before {
+	content: '';
+	position: absolute;
+	border-color: rgba(7, 108, 240, 1);
+	border-style: solid;
+	height: 38px;
+	top: 1.25em;
+	left: -2em;
+	margin-top: -1em;
+	width: 2px;
+}
+
+.analytic__fists {
+	width: 358px;
+	height: 104px;
+	font-size: 16px;
+	margin: 0px 0px 0px 30px;
+
+}
+
+.analytic__second {
+	width: 355px;
+	height: 52px;
+	font-size: 16px;
+	line-height: 26px;
+	margin: 0px 0px 0px 30px;
+}
+
+.slider__content {
+	width: 50%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.slider {
+	width: 575px;
+	height: 3px;
+	background: rgba(241, 244, 248, 1);
+}
+
+.develop {
+	width: 92%;
+	height: 3px;
+	background: rgba(242, 102, 47, 1);
+	position: relative;
+}
+
+.develop::after {
+	content: "92%";
+	position: absolute;
+	bottom: 1em;
+	left: 547px;
+}
+
+.develop::before {
+	content: "APP DEVELOPMENT";
+	position: absolute;
+	bottom: 1em;
+}
+
+.interface {
+	width: 88%;
+	height: 100%;
+	background: rgba(250, 43, 126, 1);
+	position: relative;
+
+}
+
+.interface::after {
+	content: "88%";
+	position: absolute;
+	bottom: 1em;
+	left: 547px;
+
+}
+
+.interface::before {
+	content: "User Interface";
+	position: absolute;
+	bottom: 1em;
+}
+
+.expi {
+	width: 95%;
+	height: 100%;
+	background: rgba(35, 221, 172, 1);
+	position: relative;
+}
+
+.expi::before {
+	content: "User Experiences";
+	position: absolute;
+	bottom: 1em;
+}
+
+.expi::after {
+	content: "95%";
+	position: absolute;
+	bottom: 1em;
+	left: 547px;
+
+}
+
+.info {
+	width: 50%;
+	height: 100%;
+	background: rgba(7, 108, 240, 1);
+	position: relative;
+
+}
+
+.info::before {
+	content: "Information Architecture";
+	position: absolute;
+	bottom: 1em;
+}
+
+.info::after {
+	content: "50%";
+	position: absolute;
+	bottom: 1em;
+	left: 547px;
+
+}
+
+.just__picture {
+	width: 100%;
+	height: 570px;
+	background: url(./img/image\ 1.svg);
+
+}
+
+.uniq {
+	width: 540px;
+	height: 210px;
+	font-family: 'Rubik';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 80px;
+	line-height: 105px;
+	/* or 131% */
+	text-transform: uppercase;
+}
+
+.uniq::after {
+	content: "  THE NEXT LEVEL";
+	font-family: 'Abel';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 30px;
+	line-height: 22px;
+	/* identical to box height, or 73% */
+	color: #868686;
+}
+
+.just__body {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	/* justify-content: center; */
+	align-items: center;
+	color: white;
+}
